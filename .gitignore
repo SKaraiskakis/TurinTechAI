@@ -1,0 +1,25 @@
+# Exclude specific files
+.bash_history
+.bash_logout
+.bashrc
+.cache/
+.config/
+.dotnet/
+.gitconfig
+.ipython/
+.local/
+.motd_shown
+.netrc
+.profile
+.python_history
+.sudo_as_admin_successful
+.viminfo
+.vscode-server/
+.wget-hsts
+pip.conf
+venvs/
+
+# Exclude all files in the demo-project directory except for test.ipynb
+demo-project/*
+!demo-project/test.ipynbcd '/home/savvas/demo-project'
+
