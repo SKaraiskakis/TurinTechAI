@@ -24,9 +24,3 @@ interleaved_data = interleave_time_series(data)
 print(interleaved_data)
 
 
-
-try:
-    import rpy2
-    print("rpy2 is installed")
-except ImportError:
-    print("rpy2 is not installed")
